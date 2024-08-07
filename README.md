@@ -115,7 +115,7 @@ Cela devrait afficher une sortie indiquant que Java 21 est installé.
 
 ### Test simple de compilation et d'exécution
 
-Créez un fichier `HelloWorld.java` avec le contenu suivant :
+Utilisé le fichier `Main.java` suivant pour tester la compilation et l'exécution :
 
 ```java
 public class HelloWorld {
