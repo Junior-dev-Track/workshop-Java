@@ -1,13 +1,15 @@
 # StarWars
 
+## Doc Java
+https://devdocs.io/openjdk~21/
+
 ## Objectif
 
 - Comprendre l'utilité des classes abstraites et des méthodes abstraites.
-- Comprendre l'héritage en Java.
 - Comprendre l'utilité des interfaces.
+- Comprendre l'héritage en Java.
 - Comprendre l'utilité des différentes collections Java.
 
----
 
 ## Exercice
 
@@ -18,13 +20,11 @@
 - Ajoutez les attributs suivants à la classe `Master` :
   - `name` de type `String`
   - `hp` de type `int`
-  - `def` de type `int`
   - `damage` de type `int`
-- Ajoutez un constructeur à la classe `Master` prenant en paramètres `name`, `hp`, `def`, et `damage`.
+- Ajoutez un constructeur à la classe `Master` prenant en paramètres `name`, `hp` et `damage`.
 - Ajoutez des getters et des setters pour les attributs de la classe `Master`.
 - Ajoutez les méthodes suivantes à la classe `Master` :
   - `attack(Master target)`: méthode abstraite pour infliger des dégâts à un autre `Master`.
-  - `defend(Master target)`: méthode abstraite pour réduire les dégâts infligés à ce `Master`.
   - `isAlive()`: renvoie `true` si le `Master` a des points de vie restants, sinon `false`.
   - `toString()`: renvoie une chaîne de caractères contenant le nom et les points de vie du `Master`.
 
