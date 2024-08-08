@@ -45,7 +45,7 @@ https://devdocs.io/openjdk~21/
 - Créez une classe `Sith` qui hérite de `Master` et implémente l'interface `ForceUser`.
   - Implémentez les méthodes abstraites `attack` et `defend` dans `Sith`.
   - Implémentez la méthode `useForce` :
-    - `lighting(Master target)`: inflige 150% des dégâts à un `Master` toutes les 6 attaques.
+    - `lighting(Master target)`: inflige 150% des dégâts à un `Master` toutes les 3 attaques.
     - `stroke(Master target)`: inflige 50% des dégâts à un `Master` toutes les 2 attaques.
 
 ### 4. Création d'une collection de `Master`
